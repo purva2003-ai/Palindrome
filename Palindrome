@@ -1,0 +1,8 @@
+n=input("Enter the Word:-")
+w=""
+for i in n:
+  w=i+w
+if (n==w):
+  print("Yes")
+else:
+  print("No")
